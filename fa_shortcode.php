@@ -15,6 +15,6 @@
                 ), $atts )
         );
         $fa_code = str_replace('.',' ',$fa_code);
-        return '<i class="fa '.$fa_code.'"></i>';
+        return '<i class="'.$fa_code.'"></i>';
     }
 ?>
